@@ -1,0 +1,14 @@
+<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="iconamoon:profile" clip-path="url(#clip0_41_191828)">
+<g id="Group">
+<path id="Vector" d="M10 33.6668C10 31.9871 10.6673 30.3762 11.855 29.1885C13.0427 28.0008 14.6536 27.3335 16.3333 27.3335H33C34.6797 27.3335 36.2906 28.0008 37.4783 29.1885C38.6661 30.3762 39.3333 31.9871 39.3333 33.6668C39.3333 34.2415 39.1051 34.7926 38.6987 35.1989C38.2924 35.6052 37.7413 35.8335 37.1667 35.8335H12.1667C11.592 35.8335 11.0409 35.6052 10.6346 35.1989C10.2283 34.7926 10 34.2415 10 33.6668Z" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24.6667 19C29.2231 19 32.9167 15.3063 32.9167 10.75C32.9167 6.19365 29.2231 2.5 24.6667 2.5C20.1104 2.5 16.4167 6.19365 16.4167 10.75C16.4167 15.3063 20.1104 19 24.6667 19Z" stroke="black" stroke-width="4"/>
+</g>
+<rect id="Rectangle 166" x="6" y="42.5" width="38" height="8" rx="4" fill="#4B4DF8"/>
+</g>
+<defs>
+<clipPath id="clip0_41_191828">
+<rect width="50" height="50" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

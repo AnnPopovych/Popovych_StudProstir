@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StudProstir</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/globals.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleguide.css" />
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon" />
+    <script src="/js/registration.js"></script>
+  </head>
+  <body>
+    <div class="registration">
+      <img class="background" src="img/background.png" />
+      <header class="header">
+        <div class="home">
+          <div class="text-wrapper">StudProstir</div>
+          <img class="fxemoji-books" src="img/fxemoji-books.svg" />
+        </div>
+      </header>
+      <div class="register-section">
+        <div class="registration-form">
+          <div class="div">
+            <div class="group">
+              <div class="text-wrapper-2">Реєстрація</div>
+              <img
+                class="mdi-register-outline"
+                src="img/mdi-register-outline.svg"
+              />
+            </div>
+            <div class="div-2">
+              <div class="input-field">
+                <input class="full-name" placeholder="Email" />
+              </div>
+              <div class="text-wrapper-3">Електронна пошта</div>
+            </div>
+            <div class="div-2">
+              <div class="input-field">
+                <input
+                  type="password"
+                  class="full-name"
+                  id="passwordInput"
+                  placeholder="Введіть пароль"
+                />
+                <button
+                  class="password-toggle"
+                  onclick="togglePasswordVisibility('passwordInput')"
+                >
+                  Показати
+                </button>
+              </div>
+              <div class="text-wrapper-4">Пароль</div>
+            </div>
+            <div class="div-2">
+              <div class="input-field">
+                <input
+                  type="password"
+                  class="confirm-password"
+                  id="confirmPasswordInput"
+                  placeholder="Підтвердіть пароль"
+                />
+                <button
+                  class="password-toggle"
+                  onclick="togglePasswordVisibility('confirmPasswordInput')"
+                >
+                  Показати
+                </button>
+              </div>
+              <div class="text-wrapper-5">Підтвердіть пароль</div>
+            </div>
+          </div>
+          <div class="div">
+            <div class="agreement-confirm">
+              <input type="checkbox" id="agreementCheckbox" class="checkbox" />
+              <label for="agreementCheckbox" class="group-2"></label>
+              <p class="p">
+                <span class="span">Я приймаю </span>
+                <span class="text-wrapper-6">Умови та положення</span>
+              </p>
+            </div>
+            <a
+              href="login.html"
+              onclick="registerUser()"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="button">
+                <div class="label">Зареєструватись</div>
+              </div>
+            </a>
+            <p class="div-3">
+              <span class="span">Уже зареєстровані?</span>
+              <a href="login.html"
+                ><span class="text-wrapper-7"> Увійти в систему</span></a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="social-media-footer">
+          <div class="or-section">
+            <img class="line" src="img/line-44.svg" />
+            <div class="or">
+              <div class="overlap-group">
+                <div class="text-wrapper">або</div>
+              </div>
+            </div>
+          </div>
+          <img class="social-media" src="img/social-media.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
